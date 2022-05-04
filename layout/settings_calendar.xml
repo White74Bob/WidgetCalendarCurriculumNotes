@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/view_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/view_settings_generic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkbox_show_almanac"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/show_almanac"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/view_almanac_words"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/almanac_words"
+                android:textColor="@color/blue"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_show_only_cur_month"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/gray"
+                android:singleLine="true"
+                android:text="@string/show_only_cur_month"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_day_of_week" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup_first_day_of_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_sunday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_sunday" />
+
+            <RadioButton
+                android:id="@+id/radio_monday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_monday" />
+
+            <RadioButton
+                android:id="@+id/radio_saturday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_saturday" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/lightgray"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="122dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/view_calendar_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:text="@string/calendar_search"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_with_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@color/orange"
+                    android:singleLine="true"
+                    android:text="@string/with_time"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radiogroup_calendar_search"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio_sunar_lunar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/sunar_to_lunar" />
+
+                <RadioButton
+                    android:id="@+id/radio_lunar_sunar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/lunar_to_sunar" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/lunar_assistance"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/view_count_9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/lightblue"
+                android:gravity="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/view_count_fu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/lightgreen"
+                android:gravity="center"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_control_special_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:orientation="horizontal"
+            android:padding="1dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="@string/special_days"
+                android:textSize="@dimen/special_days_label_text_size"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_add_special_day"
+                style="@style/special_days_button"
+                android:text="@string/special_day_add" />
+
+            <Button
+                android:id="@+id/button_clear_special_days"
+                style="@style/special_days_button"
+                android:text="@string/special_days_clear" />
+
+            <Button
+                android:id="@+id/button_import_special_days"
+                style="@style/special_days_button"
+                android:text="@string/special_days_import" />
+
+            <Button
+                android:id="@+id/button_export_special_days"
+                style="@style/special_days_button"
+                android:text="@string/special_days_export" />
+
+            <Button
+                android:id="@+id/button_restore_default_special_days"
+                style="@style/special_days_restore"
+                android:text="@string/special_days_restore_default" />
+        </LinearLayout>
+
+        <!-- <include layout="@layout/entry_special_day" /> -->
+
+        <include layout="@layout/entry_special_day_grid" />
+
+        <TextView
+            android:id="@+id/view_no_special_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prompt_no_special_days"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_special_days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_top" />
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/forbidden_number_settings_week"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightblue"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/date_view"
+            android:text="@string/short_monday" />
+
+        <TextView
+            android:id="@+id/mon_digits"
+            style="@style/date_digits" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/date_view"
+            android:text="@string/short_tuesday" />
+
+        <TextView
+            android:id="@+id/tue_digits"
+            style="@style/date_digits" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/date_view"
+            android:text="@string/short_wednesday" />
+
+        <TextView
+            android:id="@+id/wed_digits"
+            style="@style/date_digits" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/date_view"
+            android:text="@string/short_thursday" />
+
+        <TextView
+            android:id="@+id/thu_digits"
+            style="@style/date_digits" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/date_view"
+            android:text="@string/short_friday" />
+
+        <TextView
+            android:id="@+id/fri_digits"
+            style="@style/date_digits" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/date_view"
+            android:text="@string/short_saturday" />
+
+        <TextView
+            android:id="@+id/sat_digits"
+            style="@style/date_digits" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/short_sunday"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sun_digits"
+            style="@style/date_digits" />
+    </LinearLayout>
+
+</LinearLayout>

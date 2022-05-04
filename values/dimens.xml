@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- padding -->
+    <dimen name="row_padding">1dp</dimen>
+    <dimen name="column_padding">1dp</dimen>
+    <!-- text size -->
+    <dimen name="almanac_text_size">11sp</dimen>
+    <dimen name="week_no_text_size">10sp</dimen>
+    <!-- <dimen name="month_day_text_size">10sp</dimen> -->
+    <!-- setting icon -->
+    <dimen name="widget_setting_icon_width">16dip</dimen>
+    <dimen name="widget_setting_icon_height">16dip</dimen>
+    <!-- View width between date info and vehicle limit in the widget header -->
+    <dimen name="widget_header_sep_between_date_and_vehicle_limit">20dp</dimen>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/list_dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/view_date_specified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/prompt_input_date"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup_set_date_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_same_as_weekday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/date_notes_same_as_weekday"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_specify_notes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/date_notes_specify"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/view_notes_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/list_week_days"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice"
+            android:scrollbars="vertical" />
+
+        <LinearLayout
+            android:id="@+id/view_day_notes"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/morning_note"
+                style="@style/note_morning" />
+
+            <TextView style="@style/separator_morning" />
+
+            <TextView
+                android:id="@+id/_08"
+                style="@style/note" />
+
+            <TextView style="@style/separator_hour" />
+
+            <TextView
+                android:id="@+id/_09"
+                style="@style/note" />
+
+            <TextView style="@style/separator_on_duty" />
+
+            <TextView
+                android:id="@+id/_10"
+                style="@style/note" />
+
+            <TextView style="@style/separator_hour" />
+
+            <TextView
+                android:id="@+id/_11"
+                style="@style/note" />
+
+            <TextView style="@style/separator_hour" />
+
+            <TextView
+                android:id="@+id/_12"
+                style="@style/note" />
+
+            <TextView style="@style/separator_noon" />
+
+            <TextView
+                android:id="@+id/_13"
+                style="@style/note" />
+
+            <TextView style="@style/separator_hour" />
+
+            <TextView
+                android:id="@+id/_14"
+                style="@style/note" />
+
+            <TextView style="@style/separator_hour" />
+
+            <TextView
+                android:id="@+id/_15"
+                style="@style/note" />
+
+            <TextView style="@style/separator_hour" />
+
+            <TextView
+                android:id="@+id/_16"
+                style="@style/note" />
+
+            <TextView style="@style/separator_hour" />
+
+            <TextView
+                android:id="@+id/_17"
+                style="@style/note" />
+
+            <TextView style="@style/separator_off_duty" />
+
+            <TextView
+                android:id="@+id/evening_note"
+                style="@style/note_evening" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

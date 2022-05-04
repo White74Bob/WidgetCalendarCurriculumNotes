@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">月历课表记事</string>
+    <string name="action_settings">设置</string>
+    <string name="widget_curriculum_month">月历-周记事-课程表</string>
+    <string name="curriculum">课程表</string>
+    <string name="calendar_month">月历</string>
+    <string name="week_notes">周记事</string>
+    <string name="views_visible">可见视图</string>
+    <!-- About... -->
+    <string name="about">关于&#8230;</string>
+    <string name="about_info">
+<![CDATA[
+此部件包含3个视图:<br/>
+ -- <b>当月日历</b>: 实现了公历和中国农历，相关的干支信息也可以看到或查询，还有车辆限行信息。<br/>
+ -- <b>本周课表</b>: 可以支持多个课表。功能 基本完成。 :)<br/>
+ -- <b>本周记事</b>: 简单的周记事功能，可能也是bug最多的部分。:))<br/>
+<br/>
+可以通过设置配置只有某些视图可见。<br/>
+通过点击”设置“左边的视图名称可以实现切换。<br/>
+<br/>
+任何建议和意见欢迎写邮件到 <br/>
+<b>bwbwb@sina.com.</b>
+]]>
+    </string>
+    <!-- WeekDays -->
+    <string name="sunday">日</string>
+    <string name="monday">一</string>
+    <string name="tuesday">二</string>
+    <string name="wednesday">三</string>
+    <string name="thursday">四</string>
+    <string name="friday">五</string>
+    <string name="saturday">六</string>
+    <!-- Months -->
+    <string name="january">一月</string>
+    <string name="february">二月</string>
+    <string name="march">三月</string>
+    <string name="april">四月</string>
+    <string name="may">五月</string>
+    <string name="june">六月</string>
+    <string name="july">七月</string>
+    <string name="august">八月</string>
+    <string name="september">九月</string>
+    <string name="october">十月</string>
+    <string name="november">十一月</string>
+    <string name="december">十二月</string>
+    <!-- For 数九和数伏 -->
+    <string name="day_winter_comes">冬至</string>
+    <string name="day_summer_comes">夏至</string>
+    <string name="day_autumn">立秋</string>
+    <!-- MMDD(四月十六) -->
+    <string name="date_md_lunar_info">%1$d月%2$d日(%3$s)</string>
+    <!-- MMDD -->
+    <string name="date_md_info">%1$d月%2$d日</string>
+    <!-- x伏第y天, x九第y天 -->
+    <string name="format_x_9_fu_y">%1$s第%2$d天</string>
+    <!-- 中文干支计时 -->
+    <string name="format_cn_time">%1$s%2$s时</string>
+
+    <!-- 数九 -->
+    <string name="_1_nine">一九</string>
+    <string name="_2_nine">二九</string>
+    <string name="_3_nine">三九</string>
+    <string name="_4_nine">四九</string>
+    <string name="_5_nine">五九</string>
+    <string name="_6_nine">六九</string>
+    <string name="_7_nine">七九</string>
+    <string name="_8_nine">八九</string>
+    <string name="_9_nine">九九</string>
+    <!--
+      ** 三伏:
+      ** 1stFu: 夏至后的第三个庚日起为初伏（有10天）.
+      ** 2ndFu: 夏至后的第四个庚日起为中伏（有的年是10天，有的年是20天）.
+      ** 3rdFu: 立秋后的第一个庚日起为末伏，也称终伏（有10天）.
+    -->
+    <string name="_1_fu">初伏(头伏)</string>
+    <string name="_2_fu">中伏(二伏)</string>
+    <string name="_3_fu">末伏(三伏)</string>
+
+    <!-- 十二星座 -->
+    <string name="constellation_aquarius">水瓶座</string>
+    <string name="constellation_pisces">双鱼座</string>
+    <string name="constellation_aries">白羊座</string>
+    <string name="constellation_taurus">金牛座</string>
+    <string name="constellation_gemini">双子座</string>
+    <string name="constellation_cancer">巨蟹座</string>
+    <string name="constellation_leo">狮子座</string>
+    <string name="constellation_virgo">处女座</string>
+    <string name="constellation_libra">天秤座</string>
+    <string name="constellation_scorpio">天蝎座</string>
+    <string name="constellation_sagittarius">射手座</string>
+    <string name="constellation_capricorn">摩羯座</string>
+    <string name="stone_aquarius">紫水晶</string>
+    <string name="stone_pisces">月长石 血石</string>
+    <string name="stone_aries">钻石</string>
+    <string name="stone_taurus">蓝宝石</string>
+    <string name="stone_gemini">玛瑙</string>
+    <string name="stone_cancer">珍珠</string>
+    <string name="stone_leo">红宝石</string>
+    <string name="stone_virgo">红条纹玛瑙</string>
+    <string name="stone_libra">蓝宝石</string>
+    <string name="stone_scorpio">猫眼石</string>
+    <string name="stone_sagittarius">黄宝石</string>
+    <string name="stone_capricorn">土耳其玉</string>
+    <string name="flower_aquarius">水仙花</string>
+    <string name="flower_pisces">蔷薇花</string>
+    <string name="flower_aries">彼岸花</string>
+    <string name="flower_taurus">茉莉花</string>
+    <string name="flower_gemini">曼陀罗</string>
+    <string name="flower_cancer">山茶花</string>
+    <string name="flower_leo">风信子</string>
+    <string name="flower_virgo">向日葵</string>
+    <string name="flower_libra">郁金香</string>
+    <string name="flower_scorpio">紫薇花</string>
+    <string name="flower_sagittarius">罂粟花</string>
+    <string name="flower_capricorn">樱花</string>
+    <!-- 2012年2月25日 -->
+    <string name="date_template">%1$d年%2$d月%3$d日</string>
+    <!-- 第x周星期y -->
+    <string name="week_format_short">第%1$d周 星期%2$s</string>
+    <!-- 第x周星期y -->
+    <string name="week_format_full">第%1$d周 %2$s</string>
+
+    <!-- 菜单项 -->
+    <string name="menuitem_goto_month">转至月份</string>
+    <string name="menuitem_about">关于</string>
+    <string name="menuitem_settings">设置</string>
+
+    <!-- 颜色设置 -->
+    <string name="menuitem_setting_colors">颜色设置</string>
+    <string name="setting_color_week">星期颜色</string>
+    <string name="setting_color_day">日期颜色</string>
+    <string name="setting_color_lunar">农历颜色</string>
+
+    <!-- 关于文字 -->
+    <string name="text_about">欢迎使用Android版本!\n任何意见和建议可以写邮件至: bwbwb@sina.com</string>
+    <string name="about_your_phone">关于您的手机</string>
+
+</resources>

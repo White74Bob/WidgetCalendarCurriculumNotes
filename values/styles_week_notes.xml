@@ -1,0 +1,78 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="note_week_day" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@color/cyan</item>
+    </style>
+
+    <style name="note_morning" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">13dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:text">@string/set_note</item>
+    </style>
+
+    <style name="note_evening" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">13dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:text">@string/set_note</item>
+    </style>
+
+    <style name="note" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:text">@string/set_note</item>
+    </style>
+    
+    <style name="note_time" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">7sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:text">@string/set_note</item>
+    </style>
+
+    <style name="week_notes_control" parent="android:Theme.Black">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="separator_hour" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/lightgray</item>
+    </style>
+
+    <style name="separator_on_duty" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="separator_off_duty" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/lightgreen</item>
+    </style>
+
+</resources>

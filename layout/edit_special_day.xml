@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightgray"
+            android:text="@string/date_cn"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/text_date_cn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prompt_set_special_day_date"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_cn"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_special_day_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/type_cn" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/radiogroup_special_day_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio_public_holiday"
+                    style="@style/radio_special_day_type"
+                    android:text="@string/public_holiday" />
+
+                <RadioButton
+                    android:id="@+id/radio_work_day"
+                    style="@style/radio_special_day_type"
+                    android:text="@string/type_work_day" />
+
+                <RadioButton
+                    android:id="@+id/radio_company_holiday"
+                    style="@style/radio_special_day_type"
+                    android:text="@string/type_company_holiday" />
+
+                <RadioButton
+                    android:id="@+id/radio_birthday"
+                    style="@style/radio_special_day_type"
+                    android:text="@string/type_birthday" />
+
+                <RadioButton
+                    android:id="@+id/radio_memorial"
+                    style="@style/radio_special_day_type"
+                    android:text="@string/type_memorial" />
+
+                <RadioButton
+                    android:id="@+id/radio_other_day"
+                    style="@style/radio_special_day_type"
+                    android:text="@string/type_other" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <RadioGroup
+                    android:id="@+id/radiogroup_public_holiday_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="invisible" >
+
+                    <RadioButton
+                        android:id="@+id/radio_public_holiday_3"
+                        style="@style/radio_special_day_type"
+                        android:text="@string/public_holiday_3" />
+
+                    <RadioButton
+                        android:id="@+id/radio_public_holiday_2"
+                        style="@style/radio_special_day_type"
+                        android:text="@string/public_holiday_2" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:id="@+id/view_company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="invisible" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/company_name"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/edit_company"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/view_other_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:visibility="invisible" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/other_info"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/edit_other_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

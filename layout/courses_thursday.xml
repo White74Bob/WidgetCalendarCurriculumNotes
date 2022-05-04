@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/week_day_thursday"
+            style="@style/curriculum_week_day"
+            android:text="@string/full_thursday" />
+
+        <TextView style="@style/separator_week_prompt" />
+
+        <TextView
+            android:id="@+id/thursday_morning"
+            style="@style/curriculum_morning" />
+
+        <TextView style="@style/separator_class" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/_41"
+                style="@style/curriculum_course" />
+
+            <TextView
+                android:id="@+id/_41_location"
+                style="@style/curriculum_course_location" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_class" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/_42"
+                style="@style/curriculum_course" />
+
+            <TextView
+                android:id="@+id/_42_location"
+                style="@style/curriculum_course_location" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_morning" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/_43"
+                style="@style/curriculum_course" />
+
+            <TextView
+                android:id="@+id/_43_location"
+                style="@style/curriculum_course_location" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_class" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/_44"
+                style="@style/curriculum_course" />
+
+            <TextView
+                android:id="@+id/_44_location"
+                style="@style/curriculum_course_location" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_noon" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/_45"
+                style="@style/curriculum_course" />
+
+            <TextView
+                android:id="@+id/_45_location"
+                style="@style/curriculum_course_location" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_class" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/_46"
+                style="@style/curriculum_course" />
+
+            <TextView
+                android:id="@+id/_46_location"
+                style="@style/curriculum_course_location" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_class" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/_47"
+                style="@style/curriculum_course" />
+
+            <TextView
+                android:id="@+id/_47_location"
+                style="@style/curriculum_course_location" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_class" />
+        
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/_48"
+                style="@style/curriculum_course" />
+
+            <TextView
+                android:id="@+id/_48_location"
+                style="@style/curriculum_course_location" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_class" />
+
+        <TextView
+            android:id="@+id/off_school_thursday"
+            style="@style/time_off_school" />
+
+        <TextView style="@style/separator_class" />
+
+        <TextView
+            android:id="@+id/thursday_evening"
+            style="@style/curriculum_evening" />
+    </LinearLayout>
+
+    <TextView style="@style/separator_right" />
+
+</RelativeLayout>

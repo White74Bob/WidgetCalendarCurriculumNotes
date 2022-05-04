@@ -1,0 +1,609 @@
+<resources>
+
+    <string name="app_name">WidgetNotesCalendar</string>
+    <string name="action_settings">Settings</string>
+    <string name="widget_curriculum_month">WeekNotesMonthCalendar</string>
+    <string name="curriculum">Curriculum</string>
+    <string name="calendar_month">Calendar</string>
+    <string name="week_notes">WeekNotes</string>
+    <string name="views_visible">ViewsVisible</string>
+    <!-- About... -->
+    <string name="about">About&#8230;</string>
+    <string name="about_info">
+<![CDATA[
+<b>3</b> views are visible in the widget:<br/>
+ -- <b>Calendar</b>: Sunar calendar with Chinese lunar calendar. <br/>
+ -- <b>Curriculum</b>: More curriculum are supported. Almost done.<br/>
+ -- <b>WeekNotes</b>: In fact not done with too many bugs probably.<br/>
+<br/>
+You can select only some of them to be visible via Settings.<br/>
+<br/>
+Any comments and/or suggestions can be mailed to <br/>
+<b>bwbwb@sina.com.</b>
+]]>
+    </string>
+    <!-- Week -->
+    <string name="sunday">SUN</string>
+    <string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THU</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+    <!-- Month -->
+    <string name="january">Jan</string>
+    <string name="february">Feb</string>
+    <string name="march">Mar</string>
+    <string name="april">Apr</string>
+    <string name="may">May</string>
+    <string name="june">Jun</string>
+    <string name="july">Jul</string>
+    <string name="august">Aug</string>
+    <string name="september">Sep</string>
+    <string name="october">Oct</string>
+    <string name="november">Nov</string>
+    <string name="december">Dec</string>
+    <!-- LunarMonth -->
+    <string name="lunar_january">正月</string>
+    <string name="lunar_february">二月</string>
+    <string name="lunar_march">三月</string>
+    <string name="lunar_april">四月</string>
+    <string name="lunar_may">五月</string>
+    <string name="lunar_june">六月</string>
+    <string name="lunar_july">七月</string>
+    <string name="lunar_august">八月</string>
+    <string name="lunar_september">九月</string>
+    <string name="lunar_october">十月</string>
+    <string name="lunar_november">冬月</string>
+    <string name="lunar_december">腊月</string>
+    <!-- MMDDYYYY -->
+    <string name="date_template">%2$d/%3$d %1$d</string>
+    <!-- MMDD(四月十六) -->
+    <string name="date_md_lunar_info">%1$d/%2$d(%3$s)</string>
+    <!-- MMDD -->
+    <string name="date_md_info">%1$d/%2$d</string>
+    <!-- 农历 辛卯年【兔】四月十六 -->
+    <string name="lunar_date_template">农历%1$s%2$s年【%3$s】%4$s%5$s</string>
+    <!-- 庚戌日 (农历闰月不计干支) -->
+    <string name="lunar_date_stem_branch">%s日</string>
+    <!-- 丁卯月 庚戌日 -->
+    <string name="lunar_month_date_stem_branch">%1$s月 %2$s日</string>
+    <!-- 第x周星期y -->
+    <string name="week_format_short">W%1$02d %2$s</string>
+    <!-- 第x周星期y -->
+    <string name="week_format_full">W%1$02d %2$s</string>
+    <!-- x伏第y天, x九第y天 -->
+    <string name="format_x_9_fu_y">%1$s Day %2$d</string>
+    <!-- 中文计时 -->
+    <string name="format_cn_time"></string>
+    <!-- Constellation related -->
+    <string name="constellation_aquarius">Aquarius</string>
+    <string name="constellation_pisces">Pisces</string>
+    <string name="constellation_aries">Aries</string>
+    <string name="constellation_taurus">Taurus</string>
+    <string name="constellation_gemini">Gemini</string>
+    <string name="constellation_cancer">Cancer</string>
+    <string name="constellation_leo">Leo</string>
+    <string name="constellation_virgo">Virgo</string>
+    <string name="constellation_libra">Libra</string>
+    <string name="constellation_scorpio">Scorpio</string>
+    <string name="constellation_sagittarius">Sagittarius</string>
+    <string name="constellation_capricorn">Capricorn</string>
+    <!-- 水瓶座 紫水晶 -->
+    <string name="stone_aquarius">Amethyst</string>
+    <!-- 双鱼座, 月长石 血石 -->
+    <string name="stone_pisces">Bloodstone</string>
+    <!-- 白羊座, 钻石 -->
+    <string name="stone_aries">Diamond</string>
+    <!-- 金牛座, 蓝宝石 -->
+    <string name="stone_taurus">Sapphire</string>
+    <!-- 双子座, 玛瑙 -->
+    <string name="stone_gemini">Agate</string>
+    <!-- 巨蟹座, 珍珠 -->
+    <string name="stone_cancer">Emerald</string>
+    <!-- 狮子座, 红宝石 -->
+    <string name="stone_leo">Ruby</string>
+    <!-- 处女座, 红条纹玛瑙 -->
+    <string name="stone_virgo">Carnelian</string>
+    <!-- 天秤座, 蓝宝石 -->
+    <string name="stone_libra">Peridot</string>
+    <!-- 天蝎座, 猫眼石 -->
+    <string name="stone_scorpio">Beryl</string>
+    <!-- 射手座, 黄宝石 -->
+    <string name="stone_sagittarius">Topaz</string>
+    <!-- 摩羯座, 土耳其玉 -->
+    <string name="stone_capricorn">Garnet</string>
+    <!-- 水仙花 -->
+    <string name="flower_aquarius">Daffodil</string>
+    <!-- 蔷薇花 -->
+    <string name="flower_pisces">Rosebush</string>
+    <!-- 彼岸花 -->
+    <string name="flower_aries">Stonegarlic</string>
+    <!-- 茉莉花 -->
+    <string name="flower_taurus">Jasmine</string>
+    <!-- 曼陀罗 -->
+    <string name="flower_gemini">Mandragora</string>
+    <!-- 山茶花 -->
+    <string name="flower_cancer">Kamellia</string>
+    <!-- 风信子 -->
+    <string name="flower_leo">Hyacinth</string>
+    <!-- 向日葵 -->
+    <string name="flower_virgo">Sunflower</string>
+    <!-- 郁金香 -->
+    <string name="flower_libra">Tulip</string>
+    <!-- 紫薇花 -->
+    <string name="flower_scorpio">Myrtle</string>
+    <!-- 罂粟花 -->
+    <string name="flower_sagittarius">Poppy</string>
+    <!-- 樱花 -->
+    <string name="flower_capricorn">Sakura</string>
+    <string name="menuitem_goto_month">Goto Month</string>
+    <string name="menuitem_about">About</string>
+    <string name="menuitem_settings">Settings</string>
+    <string name="menuitem_setting_colors">Color Setting</string>
+    <string name="setting_color_week">Week Color</string>
+    <string name="setting_color_day">Day Color</string>
+    <string name="setting_color_lunar">Lunar Color</string>
+    <string name="text_about">Welcome to use Android version!\nAny comments or suggestions can be mail to: bwbwb@sina.com</string>
+    <string name="about_your_phone">About your phone</string>
+    <string name="build_model">Build model:</string>
+    <string name="sdk_version">SDK version:</string>
+    <string name="release_version">Release version:</string>
+    <string name="can_do">宜</string>
+    <string name="not_do">忌</string>
+    <string name="labor_day">劳动节</string>
+    <string name="youth_day">青年节</string>
+    <string name="pla_birthday">建军节</string>
+    <string name="nation_birthday">国庆节</string>
+    <string name="economy_day">勤俭日</string>
+    <string name="animal_day">动物日</string>
+    <string name="elder_day">老人节</string>
+    <string name="christmas">圣诞节</string>
+    <string name="lunar_day1">初一</string>
+    <string name="lunar_day2">初二</string>
+    <string name="lunar_day3">初三</string>
+    <string name="lunar_day4">初四</string>
+    <string name="lunar_day5">初五</string>
+    <string name="lunar_day6">初六</string>
+    <string name="lunar_day7">初七</string>
+    <string name="lunar_day8">初八</string>
+    <string name="lunar_day9">初九</string>
+    <string name="lunar_day10">初十</string>
+    <string name="lunar_day11">十一</string>
+    <string name="lunar_day12">十二</string>
+    <string name="lunar_day13">十三</string>
+    <string name="lunar_day14">十四</string>
+    <string name="lunar_day15">十五</string>
+    <string name="lunar_day16">十六</string>
+    <string name="lunar_day17">十七</string>
+    <string name="lunar_day18">十八</string>
+    <string name="lunar_day19">十九</string>
+    <string name="lunar_day20">二十</string>
+    <string name="lunar_day21">廿一</string>
+    <string name="lunar_day22">廿二</string>
+    <string name="lunar_day23">廿三</string>
+    <string name="lunar_day24">廿四</string>
+    <string name="lunar_day25">廿五</string>
+    <string name="lunar_day26">廿六</string>
+    <string name="lunar_day27">廿七</string>
+    <string name="lunar_day28">廿八</string>
+    <string name="lunar_day29">廿九</string>
+    <string name="lunar_day30">三十</string>
+    <string name="stem_1">甲</string>
+    <string name="stem_2">乙</string>
+    <string name="stem_3">丙</string>
+    <string name="stem_4">丁</string>
+    <string name="stem_5">戊</string>
+    <string name="stem_6">己</string>
+    <string name="stem_7">庚</string>
+    <string name="stem_8">辛</string>
+    <string name="stem_9">壬</string>
+    <string name="stem_0">癸</string>
+    <string name="branch_01">子</string>
+    <string name="branch_02">丑</string>
+    <string name="branch_03">寅</string>
+    <string name="branch_04">卯</string>
+    <string name="branch_05">辰</string>
+    <string name="branch_06">巳</string>
+    <string name="branch_07">午</string>
+    <string name="branch_08">未</string>
+    <string name="branch_09">申</string>
+    <string name="branch_10">酉</string>
+    <string name="branch_11">戌</string>
+    <string name="branch_12">亥</string>
+    <string name="animal_rat">鼠</string>
+    <string name="animal_ox">牛</string>
+    <string name="animal_tiger">虎</string>
+    <string name="animal_rabbit">兔</string>
+    <string name="animal_dragon">龙</string>
+    <string name="animal_snake">蛇</string>
+    <string name="animal_horse">马</string>
+    <string name="animal_sheep">羊</string>
+    <string name="animal_monkey">猴</string>
+    <string name="animal_rooster">鸡</string>
+    <string name="animal_dog">狗</string>
+    <string name="animal_pig">猪</string>
+    <string name="day0101">元旦</string>
+    <string name="day0202">世界湿地日</string>
+    <string name="day0202_1">湿地</string>
+    <string name="day0210">国际气象节</string>
+    <string name="day0210_1">气象</string>
+    <string name="day0214">情人节</string>
+    <string name="day0221">国际母语日</string>
+    <string name="day0221_1">母语</string>
+    <string name="day0301">国际海豹日</string>
+    <string name="day0301_1">海豹</string>
+    <string name="day0303">全国爱耳日</string>
+    <string name="day0303_1">爱耳</string>
+    <string name="day0305">学雷锋纪念日 青年志愿者服务日 周恩来诞辰(1898) 斯大林逝世(1953)</string>
+    <string name="day0305_1">雷锋</string>
+    <string name="day0308">妇女节</string>
+    <string name="day0308_1">妇女</string>
+    <string name="day0309">保护母亲河日</string>
+    <string name="day0309_1">母亲河</string>
+    <string name="day0312">植树节 孙中山逝世纪念日</string>
+    <string name="day0312_1">植树</string>
+    <string name="day0314">国际警察日 白色情人节 马克思逝世(1883) 傈僳族刀杆节</string>
+    <string name="day0314_1">警察</string>
+    <string name="day0315">消费者权益日</string>
+    <string name="day0315_1">消权</string>
+    <string name="day0317">中国国医节(1929) 国际航海日 </string>
+    <string name="day0317_1">航海</string>
+    <string name="day0321">世界森林日  世界睡眠日 消除种族歧视国际日 世界儿歌日</string>
+    <string name="day0321_1">森 睡</string>
+    <string name="day0322">世界水日</string>
+    <string name="day0322_1">水</string>
+    <string name="day0323">世界气象日</string>
+    <string name="day0323_1">气象</string>
+    <string name="day0324">世界防治结核病日(1996)</string>
+    <string name="day0324_1">防结核</string>
+    <string name="day0325">全国中小学生安全教育日</string>
+    <string name="day0325_1">学安</string>
+    <string name="day0330">巴勒斯坦国土日</string>
+    <string name="day0330_1">巴勒斯坦</string>
+    <string name="day0401">愚人节 全国爱国卫生运动月(四月) 税收宣传月(四月)</string>
+    <string name="day0401_1">愚人</string>
+    <string name="day0407">世界卫生日</string>
+    <string name="day0407_1">卫生</string>
+    <string name="day0415">全民国家安全教育日</string>
+    <string name="day0415_1">国安</string>
+    <string name="day0422">世界地球日</string>
+    <string name="day0422_1">地球</string>
+    <string name="day0423">世界图书和版权日</string>
+    <string name="day0423_1">图书版权</string>
+    <string name="day0424">亚非新闻工作者日</string>
+    <string name="day0424_1">亚非新闻</string>
+    <string name="day0426">世界知识产权日 秘书节</string>
+    <string name="day0426_1">秘书</string>
+    <string name="day0503">世界哮喘日</string>
+    <string name="day0503_1">哮喘</string>
+    <string name="day0505">碘缺乏病防治日</string>
+    <string name="day0505_1">碘缺</string>
+    <string name="day0508">国际红十字日 世界微笑日</string>
+    <string name="day0508_1">十微笑</string>
+    <string name="day0509">战胜法西斯德国纪念日</string>
+    <string name="day0509_1">胜德</string>
+    <string name="day0512">国际护士节</string>
+    <string name="day0512_1">护士</string>
+    <string name="day0515">国际家庭日</string>
+    <string name="day0515_1">家庭</string>
+    <string name="day0517">世界电信日</string>
+    <string name="day0517_1">电信</string>
+    <string name="day0518">国际博物馆日</string>
+    <string name="day0518_1">博物馆</string>
+    <string name="day0520">全国学生营养日</string>
+    <string name="day0520_1">学生营养</string>
+    <string name="day0523">国际牛奶日 西藏和平解放(1951年)</string>
+    <string name="day0523_1">牛奶</string>
+    <string name="day0531">世界无烟日</string>
+    <string name="day0531_1">无烟</string>
+    <string name="day0601">国际儿童节</string>
+    <string name="day0601_1">儿童节</string>
+    <string name="day0605">世界环境保护日</string>
+    <string name="day0605_1">环保</string>
+    <string name="day0606">全国爱眼日</string>
+    <string name="day0606_1">爱眼</string>
+    <string name="day0617">防治荒漠化和干旱日</string>
+    <string name="day0617_1">防漠旱</string>
+    <string name="day0623">国际奥林匹克日 世界手球日</string>
+    <string name="day0623_1">奥匹</string>
+    <string name="day0625">全国土地日 抗美援朝开始(1950年)</string>
+    <string name="day0625_1">土地</string>
+    <string name="day0626">国际禁毒日 国际宪章日(联合国宪章日)</string>
+    <string name="day0626_1">禁毒</string>
+    <string name="day0701">香港回归纪念日 中共诞辰 世界建筑日</string>
+    <string name="day0701_1">建筑</string>
+    <string name="day0702">国际体育记者日</string>
+    <string name="day0702_1">体记</string>
+    <string name="day0707">抗日战争纪念日 卢沟桥事变(1937年)</string>
+    <string name="day0707_1">抗战</string>
+    <string name="day0711">世界人口日</string>
+    <string name="day0711_1">人口</string>
+    <string name="day0727">朝鲜停战协定签字(1953年)</string>
+    <string name="day0727_1">朝战停</string>
+    <string name="day0730">非洲妇女日</string>
+    <string name="day0730_1">非妇</string>
+    <string name="day0808">中国男子节(爸爸节), 全民健身日</string>
+    <string name="day0808_1">爸健</string>
+    <string name="day0812">国际青年节</string>
+    <string name="day0812_1">国青</string>
+    <string name="day0815">抗日战争胜利纪念</string>
+    <string name="day0815_1">抗战胜</string>
+    <string name="day0819">中国医师节</string>
+    <string name="day0819_1">医师</string>
+    <string name="day0901">第二次世界大战爆发(1939年)西藏自治区成立(1965年)</string>
+    <string name="day0901_1">二战爆</string>
+    <string name="day0902">第二次世界大战宣告结束(1945年)</string>
+    <string name="day0902_1">二战结</string>
+    <string name="day0908">国际扫盲日 国际新闻工作者日</string>
+    <string name="day0908_1">扫盲</string>
+    <string name="day0909">毛泽东逝世纪念</string>
+    <string name="day0909_1">毛逝</string>
+    <string name="day0910">中国教师节</string>
+    <string name="day0910_1">教师</string>
+    <string name="day0914">世界清洁地球日</string>
+    <string name="day0914_1">洁地球</string>
+    <string name="day0916">国际臭氧层保护日</string>
+    <string name="day0916_1">臭氧护</string>
+    <string name="day0918">九·一八事变纪念日</string>
+    <string name="day0918_1">九·一八</string>
+    <string name="day0920">国际爱牙日</string>
+    <string name="day0920_1">爱牙</string>
+    <string name="day0921">世界停火日 世界老年性痴呆宣传日</string>
+    <string name="day0921_1">停火</string>
+    <string name="day0927">世界旅游日</string>
+    <string name="day0927_1">旅游</string>
+    <string name="day0928">孔子诞辰</string>
+    <string name="day0928_1">孔子</string>
+    <string name="day1001">中国国庆节  世界音乐日 国际老年人日 国际老人节</string>
+    <string name="day1001_1">国庆</string>
+    <string name="day1004">世界动物日</string>
+    <string name="day1004_1">动物</string>
+    <string name="day1005">世界教师日</string>
+    <string name="day1005_1">教师</string>
+    <string name="day1008">全国高血压日 世界视觉日 国际左撇子日</string>
+    <string name="day1008_1">左撇子</string>
+    <string name="day1009">世界邮政日 万国邮联日 红军长征结束(1936年)</string>
+    <string name="day1009_1">邮政</string>
+    <string name="day1010">辛亥革命纪念日 世界精神卫生日 世界居室卫生日 啤酒节(德国十月节)</string>
+    <string name="day1010_1">居卫</string>
+    <string name="day1013">世界保健日 国际教师节</string>
+    <string name="day1013_1">保健</string>
+    <string name="day1014">世界标准日</string>
+    <string name="day1014_1">标准</string>
+    <string name="day1015">国际盲人节(白手杖节) 世界农村妇女日</string>
+    <string name="day1015_1">盲人</string>
+    <string name="day1016">世界粮食日  中国红军长征开始(1934年)中国爆炸第一颗原子弹(1964年)</string>
+    <string name="day1016_1">粮食</string>
+    <string name="day1017">世界消除贫困日</string>
+    <string name="day1017_1">除贫</string>
+    <string name="day1022">世界传统医药日</string>
+    <string name="day1022_1">医药</string>
+    <string name="day1024">联合国日 世界发展新闻日</string>
+    <string name="day1024_1">联合国</string>
+    <string name="day1028">中国男性健康日</string>
+    <string name="day1028_1">男健</string>
+    <string name="day1029">国际生物多样性日</string>
+    <string name="day1029_1">生物</string>
+    <string name="day1031">世界勤俭日 万圣节</string>
+    <string name="day1031_1">勤俭</string>
+    <string name="day1107">十月社会主义革命纪念日</string>
+    <string name="day1107_1">十革</string>
+    <string name="day1108">中国记者日</string>
+    <string name="day1108_1">记者</string>
+    <string name="day1109">全国消防安全宣传教育日</string>
+    <string name="day1109_1">消宣</string>
+    <string name="day1110">世界青年节</string>
+    <string name="day1110_1">青年</string>
+    <string name="day1111">光棍节  国际科学与和平周(本日所属的一周)</string>
+    <string name="day1111_1">光棍</string>
+    <string name="day1112">孙中山诞辰纪念日 刘少奇逝世纪念日</string>
+    <string name="day1112_1">孙中山</string>
+    <string name="day1114">世界糖尿病日</string>
+    <string name="day1114_1">糖尿病</string>
+    <string name="day1117">国际大学生节 世界学生节 世界戒烟日</string>
+    <string name="day1117_1">学生</string>
+    <string name="day1120">彝族年 国际儿童日 非洲工业化日</string>
+    <string name="day1120_1">彝族</string>
+    <string name="day1121">彝族年 世界问候日 世界电视日</string>
+    <string name="day1121_1">问候</string>
+    <string name="day1122">彝族年</string>
+    <string name="day1122_1">彝族</string>
+    <string name="day1125">国际消除对妇女的暴力日</string>
+    <string name="day1125_1">除妇暴</string>
+    <string name="day1129">国际声援巴勒斯坦人民国际日</string>
+    <string name="day1129_1">声援巴</string>
+    <string name="day1201">世界艾滋病日 国际废奴日</string>
+    <string name="day1201_1">艾滋病</string>
+    <string name="day1203">世界残疾人日</string>
+    <string name="day1203_1">残疾</string>
+    <string name="day1204">全国法制宣传日</string>
+    <string name="day1204_1">法宣</string>
+    <string name="day1205">国际经济和社会发展志愿人员日 世界弱能人士日 世界强化免疫日</string>
+    <string name="day1205_1">强免疫</string>
+    <string name="day1207">国际民航日</string>
+    <string name="day1207_1">民航</string>
+    <string name="day1208">国际儿童电视日</string>
+    <string name="day1208_1">童视</string>
+    <string name="day1209">世界足球日 国际反腐败日 "一二九"学生运动(1935年)</string>
+    <string name="day1209_1">足球</string>
+    <string name="day1210">世界人权日 诺贝尔奖颁奖</string>
+    <string name="day1210_1">人权</string>
+    <string name="day1211">世界哮喘日 百色起义(1929年)</string>
+    <string name="day1211_1">哮喘</string>
+    <string name="day1212">西安事变纪念日 护士节</string>
+    <string name="day1212_1">护士</string>
+    <string name="day1213">南京大屠杀(1937年)纪念日！国家公祭日</string>
+    <string name="day1213_1">南京</string>
+    <string name="day1220">澳门回归纪念</string>
+    <string name="day1220_1">澳门</string>
+    <string name="day1221">国际篮球日</string>
+    <string name="day1221_1">篮球</string>
+    <string name="day1224">平安夜</string>
+    <string name="day1224_1">平安</string>
+    <string name="day1225">圣诞节</string>
+    <string name="day1225_1">圣诞</string>
+    <string name="day1226">毛泽东诞辰纪念</string>
+    <string name="day1226_1">毛泽东</string>
+    <string name="day1229">国际生物多样性日</string>
+    <string name="day1229_1">物多</string>
+    <string name="lunarday0101">春节</string>
+    <string name="lunarday0115">元宵节</string>
+    <string name="lunarday0115_1">上元</string>
+    <string name="lunarday0202">龙抬头</string>
+    <string name="lunarday0202_1">春龙</string>
+    <string name="lunarday0408">佛祖诞生</string>
+    <string name="lunarday0408_1">佛诞</string>
+    <string name="lunarday0505">端午节</string>
+    <string name="lunarday0505_1">端午</string>
+    <string name="lunarday0624">火把节</string>
+    <string name="lunarday0624_1">火把</string>
+    <string name="lunarday0707">七夕</string>
+    <string name="lunarday0715">中元节</string>
+    <string name="lunarday0715_1">中元</string>
+    <string name="lunarday0815">中秋节</string>
+    <string name="lunarday0815_1">中秋</string>
+    <string name="lunarday0909">重阳节</string>
+    <string name="lunarday0909_1">重阳</string>
+    <string name="lunarday1001">寒衣节</string>
+    <string name="lunarday1001_1">寒衣</string>
+    <string name="lunarday1015">下元节</string>
+    <string name="lunarday1015_1">下元</string>
+    <string name="lunarday1208">腊八</string>
+    <string name="lunarday1223">小年</string>
+    <!-- 冬至后的第108天 -->
+    <string name="qing_ming_jie">清明节</string>
+    <!-- 春节前夜 -->
+    <string name="chu_xi">除夕</string>
+
+    <!-- 1月最后一个星期日 国际麻风节 -->
+    <string name="week_1_5_0">国际麻风节</string>
+    <string name="week_1_5_0_1">麻风节</string>
+    <!-- 3月最后一个完整周的星期一 中小学生安全教育日 -->
+    <string name="week_3_4_1">中小学生安全教育日</string>
+    <string name="week_3_4_1_1">学安教</string>
+    <!-- 5月第二个星期日 母亲节 -->
+    <string name="week_5_2_0">母亲节</string>
+    <!-- 5月第三个星期日 全国助残日 -->
+    <string name="week_5_3_0">全国助残日</string>
+    <string name="week_5_3_0_1">助残日</string>
+    <!-- 6月第三个星期日 父亲节 -->
+    <string name="week_6_3_0">父亲节</string>
+    <!-- 9月第三个星期二 国际和平日 -->
+    <string name="week_9_3_2">国际和平日</string>
+    <string name="week_9_3_2_1">和平日</string>
+    <!-- 9月第三个星期六 全国国防教育日 -->
+    <string name="week_9_3_6">全国国防教育日</string>
+    <string name="week_9_3_6_1">国防教</string>
+    <!-- 9月第四个星期日 国际聋人节 -->
+    <string name="week_9_4_0">国际聋人节</string>
+    <string name="week_9_4_0_1">聋人节</string>
+    <!-- 10月的第一个星期一 世界住房日 -->
+    <string name="week_10_1_1">世界住房日</string>
+    <string name="week_10_1_1_1">住房日</string>
+    <!-- 10月的第二个星斯一 加拿大感恩节 -->
+    <string name="week_10_2_1">加拿大感恩节</string>
+    <string name="week_10_2_1_1">加感恩</string>
+    <!-- 10月第二个星期三 国际减轻自然灾害日 -->
+    <string name="week_10_2_3">国际减轻自然灾害日</string>
+    <string name="week_10_2_3_1">减灾日</string>
+    <!-- 10月第二个星期四 世界爱眼日 -->
+    <string name="week_10_2_4">世界爱眼日</string>
+    <string name="week_10_2_4_1">爱眼日</string>
+    <!-- 11月第四个星期四 美国感恩节 -->
+    <string name="week_11_4_4">美国感恩节</string>
+    <string name="week_11_4_4_1">美感恩</string>
+    <!-- Default text in day cells. -->
+    <string name="_00">00</string>
+    <string name="_01">01</string>
+    <string name="_02">02</string>
+    <string name="_03">03</string>
+    <string name="_04">04</string>
+    <string name="_05">05</string>
+    <string name="_06">06</string>
+    <string name="_10">00</string>
+    <string name="_11">01</string>
+    <string name="_12">02</string>
+    <string name="_13">03</string>
+    <string name="_14">04</string>
+    <string name="_15">05</string>
+    <string name="_16">06</string>
+    <string name="_20">00</string>
+    <string name="_21">01</string>
+    <string name="_22">02</string>
+    <string name="_23">03</string>
+    <string name="_24">04</string>
+    <string name="_25">05</string>
+    <string name="_26">06</string>
+    <string name="_30">00</string>
+    <string name="_31">01</string>
+    <string name="_32">02</string>
+    <string name="_33">03</string>
+    <string name="_34">04</string>
+    <string name="_35">05</string>
+    <string name="_36">06</string>
+    <string name="_40">00</string>
+    <string name="_41">01</string>
+    <string name="_42">02</string>
+    <string name="_43">03</string>
+    <string name="_44">04</string>
+    <string name="_45">05</string>
+    <string name="_46">06</string>
+    <string name="_50">00</string>
+    <string name="_51">01</string>
+    <string name="_52">02</string>
+    <string name="_53">03</string>
+    <string name="_54">04</string>
+    <string name="_55">05</string>
+    <string name="_56">06</string>
+    <!-- For 3-nine and 3-fu -->
+    <string name="day_winter_comes">WinterComes</string>
+    <string name="day_summer_comes">SummerComes</string>
+    <string name="day_autumn">AutumnDay</string>
+    <!-- 数九 -->
+    <string name="_1_nine">1stNine</string>
+    <string name="_2_nine">2ndNine</string>
+    <string name="_3_nine">3rdNine</string>
+    <string name="_4_nine">4thNine</string>
+    <string name="_5_nine">5thNine</string>
+    <string name="_6_nine">6thNine</string>
+    <string name="_7_nine">7thNine</string>
+    <string name="_8_nine">8thNine</string>
+    <string name="_9_nine">9thNine</string>
+    <!--
+      ** 三伏:
+      ** 1stFu: 夏至后的第三个庚日起为初伏（有10天）.
+      ** 2ndFu: 夏至后的第四个庚日起为中伏（有的年是10天，有的年是20天）.
+      ** 3rdFu: 立秋后的第一个庚日起为末伏，也称终伏（有10天）.    -->
+    <string name="_1_fu">1stFu</string>
+    <string name="_2_fu">2ndFu</string>
+    <string name="_3_fu">3rdFu</string>
+
+    <!-- 五行 -->
+    <string name="element_gold">金</string>
+    <string name="element_wood">木</string>
+    <string name="element_water">水</string>
+    <string name="element_fire">火</string>
+    <string name="element_earth">土</string>
+    <!-- 五方 -->
+    <string name="dir_east">东</string>
+    <string name="dir_west">西</string>
+    <string name="dir_south">南</string>
+    <string name="dir_north">北</string>
+    <string name="dir_center">中</string>
+    <!-- 四时 -->
+    <string name="season_spring">春</string>
+    <string name="season_summer">夏</string>
+    <string name="season_autumn">秋</string>
+    <string name="season_winter">冬</string>
+    <!-- 阴阳 -->
+    <string name="_yin">阴</string>
+    <string name="_yang">阳</string>
+    <!-- 五音 -->
+    <string name="sound_gong">宫</string>
+    <string name="sound_shang">商</string>
+    <string name="sound_jiao">角</string>
+    <string name="sound_zhi">徵</string>
+    <string name="sound_yu">羽</string>
+
+</resources>

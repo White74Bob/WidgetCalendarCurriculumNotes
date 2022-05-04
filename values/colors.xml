@@ -1,0 +1,20 @@
+<resources>
+
+    <color name="month_layout_background">#FF123456</color>
+    <color name="curriculum_layout_background">#88456789</color>
+    <color name="week_notes_layout_background">#AA6789AB</color>
+    <color name="month_days_background">#FFAABBC0</color>
+    <color name="background_last_year">@color/month_days_background</color>
+    <color name="text_last_year">@color/gray</color>
+    <color name="background_last_month">@color/month_days_background</color>
+    <color name="text_last_month">@color/gray</color>
+    <color name="background_next_year">@color/month_days_background</color>
+    <color name="text_next_year">@color/gray</color>
+    <color name="background_next_month">@color/month_days_background</color>
+    <color name="text_next_month">@color/gray</color>
+    <color name="background_curr_month">@color/month_days_background</color>
+    <color name="text_curr_month">#FFFFFFFF</color>
+    <color name="background_today">#FF000000</color>
+    <color name="text_today">#FFD0D0D0</color>
+
+</resources>

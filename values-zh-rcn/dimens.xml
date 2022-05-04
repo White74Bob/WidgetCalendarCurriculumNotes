@@ -1,0 +1,5 @@
+<resources>
+
+    <!-- View width between date info and vehicle limit in the widget header -->
+    <dimen name="widget_header_sep_between_date_and_vehicle_limit">3dp</dimen>
+</resources>

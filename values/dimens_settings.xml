@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- text size -->
+    <dimen name="lunar_stem_branch_text_size">9sp</dimen>
+    <dimen name="special_days_label_text_size">14sp</dimen>
+    <dimen name="constellation_text_size">12sp</dimen>
+    <dimen name="constellation_stone_text_size">11sp</dimen>
+    <dimen name="constellation_flower_text_size">11sp</dimen>
+    <dimen name="checkbox_show_constellation_text_size">12sp</dimen>
+    <dimen name="checkbox_show_constellation_stone_text_size">12sp</dimen>
+    <dimen name="checkbox_show_constellation_flower_text_size">11sp</dimen>
+
+    <!-- values -->
+    <integer name="constellation_stone_text_size_sp">11</integer>
+    <integer name="max_constellation_stone_text_length">7</integer>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wb.widget"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="24" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <receiver
+            android:name="wb.widget.WidgetMain"
+            android:label="@string/widget_curriculum_month" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_curriculum_calendar" />
+        </receiver>
+
+        <activity
+            android:name="wb.widget.VehicleLimitActivity"
+            android:description="@string/description_vehicle_limit"
+            android:excludeFromRecents="true"
+            android:label="@string/vehicle_limit" />
+        <activity
+            android:name="wb.widget.SettingsCalendarActivity"
+            android:description="@string/description_settings"
+            android:excludeFromRecents="true"
+            android:label="@string/settings_calendar" />
+        <activity
+            android:name="wb.widget.SettingsCurriculumActivity"
+            android:description="@string/description_settings"
+            android:excludeFromRecents="true"
+            android:label="@string/settings_curriculum" />
+        <activity
+            android:name="wb.widget.SettingsWeekNotesActivity"
+            android:description="@string/description_settings"
+            android:excludeFromRecents="true"
+            android:label="@string/settings_week_notes" />
+    </application>
+
+</manifest>

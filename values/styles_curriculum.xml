@@ -1,0 +1,149 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="curriculum_week_day" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@color/lightblue</item>
+    </style>
+    
+    <style name="curriculum_morning" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:text">@string/set_course</item>
+    </style>
+
+    <style name="separator_week_prompt" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="separator_class" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="separator_morning" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/blue</item>
+    </style>
+
+    <style name="separator_noon" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">4dp</item>
+        <item name="android:background">@color/orange</item>
+    </style>
+
+    <style name="separator_right" parent="android:Theme.Black">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    
+    <style name="time_off_school" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:text">@string/time_off_school</item>
+    </style>
+
+    <style name="curriculum_evening" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:text">@string/set_course</item>
+    </style>
+
+    <style name="curriculum_class" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="curriculum_class_label" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">6sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="curriculum_class_time" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">6sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/class_time</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="curriculum_course" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <!-- <item name="android:singleLine">true</item> -->
+        <item name="android:text">@string/set_course</item>
+    </style>
+
+    <style name="curriculum_course_location" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">7sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/course_location</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="curriculum_control" parent="android:Theme.Black">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="semester_date" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="restore_default" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

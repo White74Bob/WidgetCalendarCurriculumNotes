@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_week_notes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/week_notes_layout_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/view_week_notes_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="1dp"
+        android:text="@string/prompt_demo_fill_week_notes"
+        android:textColor="@color/red"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <include
+        android:id="@+id/view_week_notes"
+        layout="@layout/view_week_notes" />
+
+</LinearLayout>

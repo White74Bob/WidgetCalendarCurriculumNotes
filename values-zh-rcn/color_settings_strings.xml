@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="color_settings">设置颜色</string>
+    <string name="color_settings_description">调整文本框颜色，实现了预览。</string>
+    <string name="demo_text">这是一个TextView &#8230; </string>
+    <string name="text_color">文字颜色</string>
+    <string name="background_color">背景颜色</string>
+
+</resources>

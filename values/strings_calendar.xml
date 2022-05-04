@@ -1,0 +1,116 @@
+<resources>
+
+    <string name="description_settings">DescriptionWidgetSettings</string>
+    <string name="show_vehicle_limit">ShowVehicleLimit</string>
+    <string name="constellation_show">ConstellationShow</string>
+    <string name="show_constellation">Constellation</string>
+    <string name="show_constellation_stone">Stone</string>
+    <string name="show_constellation_flower">Flower</string>
+    <string name="settings_calendar">CalendarSettings</string>
+    <string name="almanac_words">AlmanacWords</string>
+    <string name="show_almanac">ShowAlmanac</string>
+    <string name="show_only_cur_month">OnlyCurrentMonthDays</string>
+    <string name="first_day_of_week">First Day of Week</string>
+    <string name="radio_sunday">Sunday</string>
+    <string name="radio_monday">Monday</string>
+    <string name="radio_saturday">Saturday</string>
+    <string name="special_days">SpecialDays</string>
+    <string name="special_days_fold">Fold</string>
+    <string name="special_days_unfold">Unfold</string>
+    <string name="special_day_colors">SpecialDayColors</string>
+    <string name="format_yyyymmdd">%1$4d/%2$02d/%3$02d</string>
+    <!-- Calendar Search -->
+    <string name="calendar_search">Calendar Search</string>
+    <string name="_sunar">Sunar</string>
+    <string name="_lunar">Lunar</string>
+    <string name="sunar_to_lunar">Sunar date to lunar date</string>
+    <string name="lunar_to_sunar">Lunar date to sunar date</string>
+    <string name="with_time">With Time</string>
+    <string name="day_1">1</string>
+    <string name="day_2">2</string>
+    <string name="day_both">Both</string>
+    <string name="add_as_special_day">Add as a Special Day</string>
+    <!-- Lunar assistance -->
+    <string name="lunar_assistance">Lunar Assistance</string>
+    <string name="format_count_9">Count9 %d</string>
+    <string name="format_count_fu">CountFu %d</string>
+    <!-- prompts -->
+    <string name="format_ymd" formatted="false">%1$s %2$4d/%3$2d/%4$2d</string>
+    <string name="prompt_input_date">Please specify the date!</string>
+    <string name="prompt_input_time">Select time!</string>
+    <string name="prompt_invalid_lunar_day">Lunar day should be between 1 and 30.</string>
+    <string name="prompt_no_special_days">No special days!</string>
+    <!-- day type -->
+    <string name="type_public_holiday">PublicHoliday</string>
+    <string name="type_work_day">Work</string>
+    <string name="type_company_holiday">CompanyHoliday</string>
+    <string name="type_birthday">Birthday</string>
+    <string name="type_memorial">Memorial</string>
+    <string name="type_other">Other</string>
+    <string name="type_normal">Normal</string>
+    <!-- day operations -->
+    <string name="special_day_add">Add</string>
+    <string name="special_day_delete">Delete</string>
+    <string name="special_day_edit">Edit</string>
+    <string name="special_days_clear">Clear</string>
+    <string name="special_days_import">Import</string>
+    <string name="special_days_export">Export</string>
+    <string name="special_days_restore_default">RestoreDefault</string>
+    <string name="title_clear_special_days">Delete all special days</string>
+    <!-- Prompts -->
+    <string name="prompt_set_special_day_date">Please set the date for the special day!</string>
+    <string name="prompt_clear_special_days">"The operation would clear all the current special days setting!\nAre you sure to do it?"</string>
+    <string name="prompt_restore_default_special_days">"The operation would discard all the change in special days setting!\nAre you sure to do it?"</string>
+    <string name="prompt_empty_date">Please specify the date for the special day!</string>
+    <string name="prompt_empty_special_day_label">Please input the label for the special day!</string>
+    <string name="format_prompt_delete_special_day">"Are you sure to delete the special day?\n%s"</string>
+    <!-- cn columns -->
+    <string name="date_cn">日期</string>
+    <string name="label_cn">名称</string>
+    <string name="type_cn">类型</string>
+    <!-- For public holidays -->
+    <string name="public_holiday">PublicHoliday</string>
+    <string name="public_holiday_3">OT3</string>
+    <string name="public_holiday_2">OT2</string>
+    <!-- For company -->
+    <string name="company_name">Company</string>
+    <!-- For other info -->
+    <string name="other_info">OtherInfo</string>
+    <!-- For color settings -->
+    <string name="type_past">Past</string>
+    <string name="type_coming">Coming</string>
+    <!-- Dialog titles -->
+    <string name="title_edit_special_day">EditSpecialDay</string>
+    <string name="title_add_special_day">AddSpecialDay</string>
+    <string name="title_edit_special_day_date">EditDateForSpecialDay</string>
+    <string name="title_set_special_day_date">SetDateForSpecialDay</string>
+    <string name="title_set_special_day_color">SetColorForSpecialDay</string>
+    <!-- default special days in China -->
+    <string-array name="public_holidays_china">
+
+        <!-- format:label;date,type;date,type;...; -->
+        <!-- date format:YYYYMMDD -->
+        <item>元旦;20210101,0</item>
+        <item>春节;20210211;20210212,0;20210213,0;20210214,0;20210215;20210216;20210217</item>
+        <item>清明节;20210403;20210404,0;20210405</item>
+        <item>劳动节;20210501,0;20210502;20210503;20210504;20210505</item>
+        <item>端午节;20210612;20210613;20210614,0;</item>
+        <item>中秋节;20210919;20210920;20210921,0;</item>
+        <item>国庆节;20211001,0;20211002,0;20211003,0;20211004;20211005;20211006;20211007</item>
+    </string-array>
+    <string-array name="work_days_china">
+        <!-- format:label;date;date;...; -->
+        <!-- date format:YYYYMMDD -->
+        <item>春节;20210207;20210220</item>
+        <item>劳动节;20210425;20210508</item>
+        <item>中秋节;20210918</item>
+        <item>国庆节;20210926;20211009;</item>
+    </string-array>
+    <string-array name="company_holidays">
+
+        <!-- format:label;date;date;...;company; -->
+        <!-- date format:YYYYMMDD -->
+        <!-- <item>圣诞节;20191225;SonyMobile</item> -->
+    </string-array>
+
+</resources>

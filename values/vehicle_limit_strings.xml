@@ -1,0 +1,171 @@
+<resources>
+
+    <string name="vehicle_limit">VehicleLimit</string>
+    <string name="description_vehicle_limit">DescriptionVehicleLimit</string>
+    <string name="format_today">Today: %1$d%2$d%3$d, %4$s</string>
+    <string name="vehicle_number_set">SetVehicleNumber</string>
+    <string name="vehicle_number_change">ChangeVehicleNumber</string>
+    <string name="prompt_input_vehicle_number">Please Input Vehicle Number!</string>
+    <string name="city">City</string>
+    <string name="city_set">SetCity</string>
+    <string name="city_change">ChangeCity</string>
+    <string name="action_add_city">AddCity</string>
+    <string name="prompt_input_city">Please Input City Name!</string>
+    <string name="prompt_input_city_exists">The city exists. \nPlease Input a New City Name!</string>
+    <string name="city_vehicle_limit_append">Append</string>
+    <string name="city_vehicle_limit_replace">Replace</string>
+    <string name="start_date">StartDate</string>
+    <string name="end_date">EndDate</string>
+    <string name="to_date"> to </string>
+    <string name="limit_by">Controlled by</string>
+    <string name="option_by_week_day">Week</string>
+    <string name="option_by_date">Date</string>
+    <string name="set_vehicle_number">VehicleNumber</string>
+    <string name="when_last_digit_is_letter">When the Last Digit in Vehicle Number is a Letter</string>
+    <string name="option_last_digit_0">Regard as 0</string>
+    <string name="option_last_number_digit">Last Number Digit</string>
+    <string name="update_vehicle_limit">Update</string>
+    <string name="delete_vehicle_limit">Delete</string>
+    <string name="vehicle_limit_fold">Fold</string>
+    <string name="vehicle_limit_unfold">Unfold</string>
+    <string name="set_as_current_city">CurrentCity</string>
+    <string name="title_update_vehicle_limit">Update %1$s Vehicle Limit Settings</string>
+    <string name="title_add_vehicle_limit">Add Vehicle Limit Settings</string>
+    <string name="update_start_date">Update Start Date</string>
+    <string name="update_end_date">Update End Date</string>
+    <string name="set_start_date">Set Start Date</string>
+    <string name="set_end_date">Set End Date</string>
+    <string name="update_forbidden_digits">UpdateForbiddenDigits</string>
+    <string name="set_forbidden_digits">SetForbiddenDigits</string>
+    <string name="loop_next">LoopNext</string>
+    <string name="prompt_input_start_day">Please set the start day!</string>
+    <string name="prompt_input_end_day">Please set the end day!</string>
+    <string name="prompt_end_date_le_start_date">End Date 〈= Start Date?!</string>
+    <string name="prompt_wrong_digits_in_weekdays">Digits conflict in a week!</string>
+    <string name="prompt_wrong_digits_in_monthdays">Digits conflict in a month!</string>
+    <string name="prompt_delete_city_number_settings">Are you sure to delete the settings for city %1$s?</string>
+    <string name="prompt_failed_to_delete_city_settings">Failed to delete the settings for city %1$s!</string>
+    <!-- WeekDay -->
+    <string name="full_monday">Monday</string>
+    <string name="full_tuesday">Tuesday</string>
+    <string name="full_wednesday">Wednesday</string>
+    <string name="full_thursday">Thursday</string>
+    <string name="full_friday">Friday</string>
+    <string name="full_saturday">Saturday</string>
+    <string name="full_sunday">Sunday</string>
+    <string name="short_monday">MON</string>
+    <string name="short_tuesday">TUE</string>
+    <string name="short_wednesday">WED</string>
+    <string name="short_thursday">THU</string>
+    <string name="short_friday">FRI</string>
+    <string name="short_saturday">SAT</string>
+    <string name="short_sunday">SUN</string>
+    <string name="date_not_set">Date NOT Set!</string>
+    <!-- Month Days -->
+    <string name="date_01"> 1</string>
+    <string name="date_02"> 2</string>
+    <string name="date_03"> 3</string>
+    <string name="date_04"> 4</string>
+    <string name="date_05"> 5</string>
+    <string name="date_06"> 6</string>
+    <string name="date_07"> 7</string>
+    <string name="date_08"> 8</string>
+    <string name="date_09"> 9</string>
+    <string name="date_10">10</string>
+    <string name="date_11">11</string>
+    <string name="date_12">12</string>
+    <string name="date_13">13</string>
+    <string name="date_14">14</string>
+    <string name="date_15">15</string>
+    <string name="date_16">16</string>
+    <string name="date_17">17</string>
+    <string name="date_18">18</string>
+    <string name="date_19">19</string>
+    <string name="date_20">20</string>
+    <string name="date_21">21</string>
+    <string name="date_22">22</string>
+    <string name="date_23">23</string>
+    <string name="date_24">24</string>
+    <string name="date_25">25</string>
+    <string name="date_26">26</string>
+    <string name="date_27">27</string>
+    <string name="date_28">28</string>
+    <string name="date_29">29</string>
+    <string name="date_30">30</string>
+    <string name="date_31">31</string>
+    <!-- yyyy-mm-dd -->
+    <string name="format_yyyy_mm_dd">%1$d/%2$02d/%3$02d</string>
+
+    <!-- 车辆限行提示格式 -->
+    <string name="format_vehicle_limit">%1$s(%2$d, %3$d)</string>
+    <!-- More prompts -->
+    <string name="prompt_set_limited_numbers"></string>
+    <string name="prompt_update_limited_numbers"></string>
+    <string name="prompt_numbers_setting_not_in_time"></string>
+    <string name="prompt_no_limit_in_weekend"></string>
+    <string name="prompt_no_limit_in_public_holiday"></string>
+
+    <!-- 默认车辆尾号限行设置 -->
+    <string-array name="numbers_forbidden_bj">
+
+        <!-- 城市 -->
+        <item>北京,0,0</item>
+        <!-- 起始日期 -->
+        <item>2021,01,04</item>
+        <!-- 结束日期 -->
+        <item>2021,04,04</item>
+        <!-- 工作日尾号，周一到周五 -->
+        <item>3,8</item>
+        <item>4,9</item>
+        <item>5,0</item>
+        <item>1,6</item>
+        <item>2,7</item>
+    </string-array>
+    <string-array name="numbers_forbidden_lz">
+
+        <!-- 城市 -->
+        <item>兰州,1,1</item>
+        <!-- 起始日期 -->
+        <item>2021,01,01</item>
+        <!-- 结束日期 -->
+        <item>2022,12,31</item>
+        <!-- 每日尾号，一号到31号 -->
+        <!-- 格式：尾号1,尾号2;日1,日2,日3,日4,日5,日6,日7 -->
+        <item>1,6;01,06,11,16,21,26,31</item>
+        <item>2,7;02,07,12,17,22,27</item>
+        <item>3,8;03,08,13,18,23,28</item>
+        <item>4,9;04,09,14,19,24,29</item>
+        <item>5,0;05,10,15,20,25,30</item>
+    </string-array>
+    <string-array name="numbers_forbidden_xa">
+
+        <!-- 城市 -->
+        <item>西安,0,1</item>
+        <!-- 起始日期 -->
+        <item>2020,11,16</item>
+        <!-- 结束日期 -->
+        <item>2021,11,12</item>
+        <!-- 工作日尾号，周一到周五 -->
+        <item>1,6</item>
+        <item>2,7</item>
+        <item>3,8</item>
+        <item>4,9</item>
+        <item>5,0</item>
+    </string-array>
+    <string-array name="numbers_forbidden_hz">
+
+        <!-- 城市 -->
+        <item>杭州,0,1</item>
+        <!-- 起始日期 -->
+        <item>2021,01,01</item>
+        <!-- 结束日期 -->
+        <item>2021,12,31</item>
+        <!-- 工作日尾号，周一到周五 -->
+        <item>1,9</item>
+        <item>2,8</item>
+        <item>3,7</item>
+        <item>4,6</item>
+        <item>5,0</item>
+    </string-array>
+
+</resources>

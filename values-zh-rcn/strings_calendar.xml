@@ -1,0 +1,82 @@
+<resources>
+
+    <string name="description_settings">此处配置小部件在桌面的显示.</string>
+    <string name="show_vehicle_limit">显示车辆限行</string>
+    <string name="constellation_show">星座信息显示</string>
+    <string name="show_constellation">星座</string>
+    <string name="show_constellation_stone">生辰石</string>
+    <string name="show_constellation_flower">花</string>
+    <string name="settings_calendar">日历设置</string>
+    <string name="almanac_words">黄历名词解释</string>
+    <string name="show_almanac">显示黄历</string>
+    <string name="show_only_cur_month">只显示当月日期</string>
+    <string name="first_day_of_week">每周起始日</string>
+    <string name="radio_sunday">星期日</string>
+    <string name="radio_monday">星期一</string>
+    <string name="radio_saturday">星期六</string>
+    <string name="special_days">特殊日期</string>
+    <string name="special_days_fold">收起</string>
+    <string name="special_days_unfold">展开</string>
+    <string name="special_day_colors">特殊日期颜色</string>
+    <string name="format_yyyymmdd">%1$4d年%2$2d月%3$2d日</string>
+    <!-- Calendar Search -->
+    <string name="calendar_search">日期查询</string>
+    <string name="_sunar">公元</string>
+    <string name="_lunar">农历</string>
+    <string name="sunar_to_lunar">公历查农历</string>
+    <string name="lunar_to_sunar">农历查公历</string>
+    <string name="with_time">指定时间</string>
+    <string name="day_both">全部</string>
+    <string name="add_as_special_day">添加为特殊日期</string>
+    <!-- Lunar assistance -->
+    <string name="lunar_assistance">农历辅助功能</string>
+    <string name="format_count_9">数九%d</string>
+    <string name="format_count_fu">数伏%d</string>
+    <!-- prompts -->
+    <string name="format_ymd" formatted="false">%1$s %2$4d年%3$2d月%4$2d日</string>
+    <string name="prompt_input_date">请指定日期!</string>
+    <string name="prompt_input_time">指定时间!</string>
+    <string name="prompt_invalid_lunar_day">农历日期必须在1到30之间!</string>
+    <string name="prompt_no_special_days">没有设置特殊日期!</string>
+    <!-- day type -->
+    <string name="type_public_holiday">公共假期</string>
+    <string name="type_work_day">工作日</string>
+    <string name="type_company_holiday">公司假期</string>
+    <string name="type_birthday">生日</string>
+    <string name="type_memorial">纪念日</string>
+    <string name="type_other">其他</string>
+    <!-- day operations -->
+    <string name="special_day_add">添加</string>
+    <string name="special_day_delete">删除</string>
+    <string name="special_day_edit">更改</string>
+    <string name="special_days_clear">清空</string>
+    <string name="special_days_import">导入</string>
+    <string name="special_days_export">导出</string>
+    <string name="special_days_restore_default">恢复默认</string>
+    <string name="title_clear_special_days">删除所有特殊日期</string>
+    <!-- Prompts -->
+    <string name="prompt_set_special_day_date">请设置日期!</string>
+    <string name="prompt_clear_special_days">"此操作会将现在所有的特殊日期设置清除!\n确定要执行吗?"</string>
+    <string name="prompt_restore_default_special_days">"此操作会将现在所有的特殊日期设置清除，然后恢复到默认数据!\n确定要执行吗?"</string>
+    <string name="prompt_empty_date">请设置日期!</string>
+    <string name="prompt_empty_special_day_label">请为此特殊日期输入名称!</string>
+    <string name="format_prompt_delete_special_day">"确认要删除这个特殊日期吗?\n%s"</string>
+    <!-- For public holidays -->
+    <string name="public_holiday">公共假期</string>
+    <string name="public_holiday_3">加班三倍工资</string>
+    <string name="public_holiday_2">加班两倍工资</string>
+    <!-- For company -->
+    <string name="company_name">公司</string>
+    <!-- For other info -->
+    <string name="other_info">其它信息</string>
+    <!-- For color settings -->
+    <string name="type_past">过去的</string>
+    <string name="type_coming">未来的</string>
+    <!-- Dialog titles -->
+    <string name="title_edit_special_day">编辑特殊日期信息</string>
+    <string name="title_add_special_day">新增特殊日期</string>
+    <string name="title_edit_special_day_date">修改日期</string>
+    <string name="title_set_special_day_date">设置日期</string>
+    <string name="title_set_special_day_color">设置日期颜色</string>
+
+</resources>

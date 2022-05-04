@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="24dp"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/note_week_day"
+            android:visibility="invisible" />
+
+        <TextView style="@style/separator_week_prompt" />
+
+        <TextView
+            android:id="@+id/day_morning_note"
+            style="@style/note_morning"
+            android:visibility="invisible" />
+
+        <TextView style="@style/separator_morning" />
+
+        <TextView
+            android:id="@+id/day_08"
+            style="@style/note_time" />
+
+        <TextView style="@style/separator_hour" />
+
+        <TextView
+            android:id="@+id/day_09"
+            style="@style/note_time" />
+
+        <TextView style="@style/separator_on_duty" />
+
+        <TextView
+            android:id="@+id/day_10"
+            style="@style/note_time" />
+
+        <TextView style="@style/separator_hour" />
+
+        <TextView
+            android:id="@+id/day_11"
+            style="@style/note_time" />
+
+        <TextView style="@style/separator_hour" />
+
+        <TextView
+            android:id="@+id/day_12"
+            style="@style/note_time" />
+
+        <TextView style="@style/separator_noon" />
+
+        <TextView
+            android:id="@+id/day_13"
+            style="@style/note_time" />
+
+        <TextView style="@style/separator_hour" />
+
+        <TextView
+            android:id="@+id/day_14"
+            style="@style/note_time" />
+
+        <TextView style="@style/separator_hour" />
+
+        <TextView
+            android:id="@+id/day_15"
+            style="@style/note_time" />
+
+        <TextView style="@style/separator_hour" />
+
+        <TextView
+            android:id="@+id/day_16"
+            style="@style/note_time" />
+
+        <TextView style="@style/separator_hour" />
+
+        <TextView
+            android:id="@+id/day_17"
+            style="@style/note_time" />
+
+        <TextView style="@style/separator_off_duty" />
+
+        <TextView
+            android:id="@+id/day_evening_note"
+            style="@style/note_evening"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView style="@style/separator_right" />
+
+</RelativeLayout>

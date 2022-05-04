@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="color_settings">Color Settings</string>
+    <string name="color_settings_description">Adjust the colors in a TextView. Preview is supported.</string>
+    <string name="demo_text">This is a TextView &#8230; </string>
+    <string name="text_color">Text Color</string>
+    <string name="background_color">Background Color</string>
+    <string name="color_red">R</string>
+    <string name="color_green">G</string>
+    <string name="color_blue">B</string>
+    <string name="color_name">Name</string>
+    <string name="color_name_cn">名称</string>
+    <string name="color_demo">Color</string>
+
+</resources>

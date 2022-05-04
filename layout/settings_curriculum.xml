@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    android:orientation="vertical"
+    tools:context=".SettingsCurriculumActivity" >
+
+    <include layout="@layout/view_settings_generic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/color_scheme"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_show_courses_public_holidays"
+                android:layout_width="0dp"
+                android:layout_height="22dp"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="@string/show_courses_in_public_holidays"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/radiogroup_color_scheme"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio_same_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_set_same"
+                    android:textColor="@color/yellow"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_different_colors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_set_course_different"
+                    android:textColor="@color/lightblue"
+                    android:textSize="13sp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/view_color_demos"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="2"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/demo_course"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/text_course"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/view_change_colors"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="@color/cyan"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/change_colors"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/view_start_date"
+                style="@style/semester_date"
+                android:text="@string/set_semester_start_date" />
+
+            <TextView
+                android:id="@+id/view_end_date"
+                style="@style/semester_date"
+                android:text="@string/set_semester_end_date" />
+
+            <TextView
+                android:id="@+id/view_restore_curriculum"
+                style="@style/restore_default"
+                android:text="@string/curriculum_restore_default" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@color/gold"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_set_date_courses"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/set_course_by_date"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/view_reset_curriculum"
+                    style="@style/curriculum_control"
+                    android:text="@string/curriculum_reset" />
+
+                <TextView
+                    android:id="@+id/view_import_curriculum"
+                    style="@style/curriculum_control"
+                    android:text="@string/curriculum_import" />
+
+                <TextView
+                    android:id="@+id/view_export_curriculum"
+                    style="@style/curriculum_control"
+                    android:text="@string/curriculum_export" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/view_prompt_fill_curriculum"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/prompt_fill_curriculum"
+                android:textColor="@color/darkred"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkgray"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/view_curriculum_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="@string/prompt_fill_curriculum"
+                android:textColor="@color/red"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/view_set_curriculum_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/set_curriculum_label"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:textStyle="italic"
+                tools:ignore="SmallSp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/view_curriculum_prev"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/arrow_left"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/view_curriculum_next"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/arrow_right"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/view_add_curriculum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/curriculum_add"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/view_delete_curriculum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/curriculum_del"
+            android:textColor="@color/red"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <include layout="@layout/view_curriculum" />
+
+</LinearLayout>

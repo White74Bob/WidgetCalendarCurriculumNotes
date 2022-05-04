@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="34dp"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/view_show_class_time_in_widget"
+            style="@style/curriculum_week_day"
+            android:text="@string/show_class_time_in_widget" />
+
+        <TextView style="@style/separator_week_prompt" />
+
+        <TextView
+            android:id="@+id/day_morning_reading"
+            style="@style/curriculum_morning"
+            android:text="@string/morning_reading" />
+
+        <TextView style="@style/separator_class" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/day_am_1_label"
+                style="@style/curriculum_class_label"
+                android:text="@string/morning_course_1" />
+
+            <TextView
+                android:id="@+id/day_am_1_time"
+                style="@style/curriculum_class_time" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_class" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/day_am_2_label"
+                style="@style/curriculum_class_label"
+                android:text="@string/morning_course_2" />
+
+            <TextView
+                android:id="@+id/day_am_2_time"
+                style="@style/curriculum_class_time" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_morning" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/day_am_3_label"
+                style="@style/curriculum_class_label"
+                android:text="@string/morning_course_3" />
+
+            <TextView
+                android:id="@+id/day_am_3_time"
+                style="@style/curriculum_class_time" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_class" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/day_am_4_label"
+                style="@style/curriculum_class_label"
+                android:text="@string/morning_course_4" />
+
+            <TextView
+                android:id="@+id/day_am_4_time"
+                style="@style/curriculum_class_time" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_noon" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/day_pm_1_label"
+                style="@style/curriculum_class_label"
+                android:text="@string/afternoon_course_1" />
+
+            <TextView
+                android:id="@+id/day_pm_1_time"
+                style="@style/curriculum_class_time" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_class" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/day_pm_2_label"
+                style="@style/curriculum_class_label"
+                android:text="@string/afternoon_course_2" />
+
+            <TextView
+                android:id="@+id/day_pm_2_time"
+                style="@style/curriculum_class_time" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_class" />
+
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/day_pm_3_label"
+                style="@style/curriculum_class_label"
+                android:text="@string/afternoon_course_3" />
+
+            <TextView
+                android:id="@+id/day_pm_3_time"
+                style="@style/curriculum_class_time" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_class" />
+        
+        <LinearLayout
+            style="@style/curriculum_class"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/day_pm_4_label"
+                style="@style/curriculum_class_label"
+                android:text="@string/afternoon_course_4" />
+
+            <TextView
+                android:id="@+id/day_pm_4_time"
+                style="@style/curriculum_class_time" />
+        </LinearLayout>
+
+        <TextView style="@style/separator_class" />
+
+        <TextView
+            android:id="@+id/day_off_school"
+            style="@style/time_off_school" 
+            android:text="@string/time_off_school"/>
+
+        <TextView style="@style/separator_class" />
+
+        <TextView
+            android:id="@+id/day_evening_study"
+            style="@style/curriculum_class_label"
+            android:text="@string/evening_study" />
+    </LinearLayout>
+
+    <TextView style="@style/separator_right" />
+
+</RelativeLayout>

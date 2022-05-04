@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/forbidden_number_settings_month"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightblue"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/month_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/view_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_01"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_01_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_02"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_02_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_03"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_03_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_04"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_04_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_05"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_05_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_06"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_06_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_07"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_07_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/month_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/view_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_11"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_11_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_12"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_12_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_13"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_13_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_14"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_14_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_15"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_15_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_16"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_16_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_17"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_17_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/month_line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/view_21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_21"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_21_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_22"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_22_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_23"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_23_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_24"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_24_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_25"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_25_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_26"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_26_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_27"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_27_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/month_line4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/view_31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_31"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_31_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_32"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_32_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_33"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_33_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_34"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_34_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_35"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_35_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_36"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_36_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_37"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_37_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/month_line5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/view_41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_41"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_41_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_42"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_42_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_43"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_43_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/date_44"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_44_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/date_45"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_45_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/date_46"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_46_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/date_47"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_47_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/month_line6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/view_51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_51"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_51_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_52"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_52_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_53"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_53_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/date_54"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_54_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/date_55"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_55_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/date_56"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_56_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_57"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/date_57"
+                style="@style/date_view" />
+
+            <TextView
+                android:id="@+id/date_57_digits"
+                style="@style/date_digits" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Text Size in DP -->
+    <integer name="curriculum_morning_reading_text_size">2</integer>
+    <integer name="curriculum_class_text_size">1</integer>
+    <integer name="curriculum_evening_study_text_size">9</integer>
+
+</resources>

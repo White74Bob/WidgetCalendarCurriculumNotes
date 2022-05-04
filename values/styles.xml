@@ -1,0 +1,220 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="layout_week">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">fill_horizontal</item>
+    </style>
+
+    <style name="layout_day">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="layout_column_weight_week" parent="android:Theme.Black">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">fill_horizontal</item>
+    </style>
+
+    <style name="layout_column_weight_day" parent="android:Theme.Black">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="week_day" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/week_no_text_size</item>
+    </style>
+
+    <style name="week_day_column_weight" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/week_no_text_size</item>
+    </style>
+
+    <style name="week_no" parent="android:Theme.Black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/week_no_text_size</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:textColor">#FF0A0A0A</item>
+    </style>
+
+    <style name="week_no_column_weight" parent="android:Theme.Black">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/week_no_text_size</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:textColor">#FF0A0A0A</item>
+    </style>
+
+    <style name="month_day" parent="android:Theme.Black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <!-- <item name="android:textSize">@dimen/month_day_text_size</item> -->
+        <item name="android:textColor">@color/text_curr_month</item>
+        <item name="android:background">@color/background_curr_month</item>
+    </style>
+
+    <style name="month_today" parent="android:Theme.Black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <!-- <item name="android:textSize">@dimen/month_day_text_size</item> -->
+        <item name="android:visibility">gone</item>
+        <item name="android:textColor">@color/text_today</item>
+        <item name="android:background">@color/background_today</item>
+    </style>
+
+    <style name="last_month_day" parent="android:Theme.Black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">1dp</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:gravity">center</item>
+        <!-- <item name="android:textSize">@dimen/month_day_text_size</item> -->
+        <item name="android:visibility">gone</item>
+        <item name="android:textColor">@color/text_last_month</item>
+        <item name="android:background">@color/background_last_month</item>
+    </style>
+
+    <style name="next_month_day" parent="android:Theme.Black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">1dp</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:gravity">center</item>
+        <!-- <item name="android:textSize">@dimen/month_day_text_size</item> -->
+        <item name="android:visibility">gone</item>
+        <item name="android:textColor">@color/text_next_month</item>
+        <item name="android:background">@color/background_next_month</item>
+    </style>
+
+    <style name="digit_view" parent="android:Theme.Black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="date_view" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="date_digits" parent="android:Theme.Black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="weekend_digits" parent="android:Theme.Black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="radio_special_day_type">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="special_days_button" parent="android:Theme.Black">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="special_days_restore" parent="android:Theme.Black">
+        <item name="android:layout_width">92dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="edit_single_color" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:maxLength">3</item>
+        <item name="android:inputType">number</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="color_seekbar" parent="android:Theme.Black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:max">255</item>
+    </style>
+
+    <style name="color_text_hex">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="color_text_decimal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="view_checkbox">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:text">@string/week_notes</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- weight -->
+    <integer name="calendar_search_weight_input_date">2</integer>
+    <integer name="calendar_search_weight_input_time">1</integer>
+    <!-- Text Size in DP -->
+
+</resources>
